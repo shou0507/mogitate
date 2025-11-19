@@ -1,0 +1,146 @@
+header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: rgb(255, 231, 45);
+    margin-left: 20px;
+}
+
+.main {
+    background-color: rgba(248, 248, 248, 1);
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.product-edit {
+    max-width: 900px;
+    margin: 40px auto 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-edit__top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.product-edit__fields {
+    width: 60%;
+    display: flex;
+    flex-direction: column;  /* ← 縦並びになる */
+    gap: 14px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;  /* ← ラベルと入力も縦並びになる */
+    gap: 4px;
+    margin-bottom: 35px;
+    font-size: 20px;
+
+}
+
+.product-edit__image {
+    margin-right: 40px;
+}
+
+.product-edit__image-img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    padding-top: 11px;
+    padding-right: 10px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.season-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.season-item input[type="checkbox"] {
+    margin-left: 20px;
+}
+
+.product-edit__bottom {
+    margin-top: 40px;
+}
+
+.form-textarea {
+    height: 150px;
+}
+
+.edit-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-back,
+.btn-save {
+    padding: 12px 50px;
+}
+
+.btn-back {
+    opacity: 1;
+    border-radius: 5px;
+    background: rgba(224, 223, 222, 1);
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-save {
+    background: rgba(245, 200, 0, 1);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.product-edit__image-label label {
+    opacity: 1;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background: rgba(224, 223, 222, 1);
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-delete {
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 500px;  /* ← 左に寄せる（値は好きに調整） */
+    margin-top: -40px;    /* ← 上に少し上げる */
+    padding: 10px;        /* クリックしやすくするための余裕 */
+}
+
+.form-error {
+    color: red;
+}

@@ -1,0 +1,103 @@
+header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: rgb(255, 231, 45);
+    margin-left: 20px;
+}
+
+.main {
+    background-color: rgba(248, 248, 248, 1);
+    min-height: 100vh;
+    padding-top: 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.main h2 {
+    width: 100%;          /* ← 左寄せが効くようになる */
+    margin-left: 650px;
+    margin-top: -40px;    /* ← 少し上に上げる（数値は調整OK） */
+    margin-bottom: 40px;
+}
+
+.required {
+    background: #ff4d4d;
+    color: rgba(255, 255, 255, 0.7);
+    width: 34px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.product-edit {
+    width: 100%;
+    max-width: 600px;
+    min-height: calc(60vh - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form__row,
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.form-input,
+.input {
+    height: 30px;   /* ← ここで高さ調整！ 例: 45〜55px が自然 */
+}
+
+.form-textarea {
+    height: 200px;
+}
+
+.season-group {
+    display: flex;
+    gap: 40px;
+}
+
+
+.register-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-back,
+.btn-register {
+    padding: 12px 50px;
+}
+
+.btn-back {
+    opacity: 1;
+    border-radius: 5px;
+    background: rgba(224, 223, 222, 1);
+    color: #333;
+    text-decoration: none;
+}
+
+.btn-register {
+    background: rgba(245, 200, 0, 1);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-error {
+    color: red;
+}
