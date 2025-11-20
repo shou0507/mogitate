@@ -56,3 +56,4 @@ php artisan db:seed
 - phpMyAdmin:：http://localhost:8080/
 # mogitate
 # mogitate
+# mogitate
