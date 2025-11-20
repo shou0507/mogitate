@@ -57,3 +57,4 @@ php artisan db:seed
 # mogitate
 # mogitate
 # mogitate
+# mogitate
